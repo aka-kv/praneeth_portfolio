@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namburi Praneeth - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span class="loader-text">LOADING</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Cursor Animation -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li class="highlight-nav"><a href="#resume">Resume</a></li>
+                    <li class="highlight-nav"><a href="#internship">Internship</a></li>
+                    <li class="highlight-nav"><a href="#projects">Projects</a></li>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#linkedin">LinkedIn</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <div class="hero-content" data-aos="fade-up">
+                    <h1 class="glitch" data-text="Digital Portfolio">Digital Portfolio</h1>
+                    <div class="accent-line"></div>
+                    <h2>Namburi Praneeth | B.Tech Instrumentation and Control Engineering</h2>
+                    <div class="hero-buttons">
+                        <a href="#resume" class="btn primary-btn"><i class="fas fa-file-alt"></i> View Resume</a>
+                        <a href="#contact" class="btn secondary-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+                    </div>
+                    <div class="scroll-indicator">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <div>
+                            <span class="scroll-text">Scroll Down</span>
+                            <span class="arrow">&#x2193;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">Academic Achievements</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                <div class="card-container">
+                    <div class="achievement-card" data-aos="flip-left" data-aos-delay="100">
+                        <div class="achievement-icon">
+                            <i class="fab fa-amazon"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Amazon ML Summer School</h3>
+                            <p>Secured among the top 3,000 students out of 90,000+ applicants for the Amazon ML Summer School 2024.</p>
+                            <span class="year-badge">2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Cambridge A2 Certification</h3>
+                            <p>In 2021, Achieved Council of Europe Level A2 certification in Cambridge from the University of Cambridge.</p>
+                            <span class="year-badge">2021</span>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>National Competition Award</h3>
+                            <p>In 2020, secured 3rd prize in a National-level Competition organized by Rajalakshmi Institute of Technology.</p>
+                            <span class="year-badge">2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="internship" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">Internship Experience</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Dec 2023 - Jan 2024</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-chart-line"></i> Data Analyst Intern</h3>
+                            <h4>Larsen & Toubro</h4>
+                            <p>Pioneering data-driven solutions at L&T, optimizing project management with analytics and predictive modeling.</p>
+                            <ul class="experience-list">
+                                <li>Completed an internship focusing on time series analysis of solar power plants</li>
+                                <li>Conducted analysis of time series data from solar power plants at various locations</li>
+                                <li>Generated insights, identifying trends in power generation across plants</li>
+                                <li>Used predictive modeling techniques like ANOVA model to forecast future power generation</li>
+                                <li>Presented findings and insights to stakeholders, including supervisors and project teams</li>
+                                <li>Contributed to development of strategies based on analysis results</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <h3>Feb 2024 - Apr 2024</h3>
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-tasks"></i> Product Management Intern</h3>
+                            <h4>Drumbuffer</h4>
+                            <p>Drumbuffer Analytics delivers advanced data solutions to enhance business insights and decision-making.</p>
+                            <ul class="experience-list">
+                                <li>Transformed complex data into actionable insights, driving growth and increasing efficiency by 20%</li>
+                                <li>Conducted analysis to identify market gap for high throughput automation and improving precision by 10%</li>
+                                <li>Managed the product lifecycle from concept to commercialization</li>
+                                <li>Achieved 30% increase in throughput and 20% reduction in human error rate</li>
+                                <li>Implemented dynamic dashboard using Power-BI for tracking sales order from 10+ colleges using CRM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">Projects</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="zoom-in">
+                        <div class="project-img">
+                            <i class="fas fa-truck-loading"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Supply Chain Optimization Analysis</h3>
+                            <span class="date-badge">Jan 2024 - Mar 2024</span>
+                            <ul>
+                                <li>Conducted stakeholder analysis and created empathy maps for the Supply Chain Manager</li>
+                                <li>Addressed key challenges and optimized user experience</li>
+                                <li>Developed and tracked critical KPIs (profit margin by ship mode, regional sales)</li>
+                                <li>Improved efficiency by aligning data-driven strategies with business objectives</li>
+                                <li>Achieved optimized shipping methods, cost reductions, and enhanced customer satisfaction</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Data Analysis</span>
+                                <span>Business Intelligence</span>
+                                <span>Supply Chain</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card featured" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="project-img">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Time Series Analysis of Solar Power Plants</h3>
+                            <span class="date-badge">Dec 2023 - Jan 2024</span>
+                            <p>Analyzed solar power data from multiple plants using predictive models like ANOVA. Collaborated with engineers to derive insights, leading to an 18% improvement in forecasting accuracy.</p>
+                            <div class="project-tech">
+                                <span>Time Series</span>
+                                <span>ANOVA</span>
+                                <span>Data Analytics</span>
+                                <span>Renewable Energy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="intro" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">Self-Introduction</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                <div class="video-container" data-aos="fade-up">
+                    <video controls poster="videos/video-thumbnail.jpg">
+                        <source src="videos/self-intro.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="linkedin" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">LinkedIn Post</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                <div class="linkedin-container" data-aos="fade-up">
+                    <div class="linkedin-card">
+                        <div class="linkedin-header">
+                            <div class="linkedin-profile">
+                                <div class="profile-img">NP</div>
+                                <div class="profile-info">
+                                    <h3>Namburi Praneeth</h3>
+                                    <p>Data Analytics Intern at Larsen & Toubro</p>
+                                    <span>2w • <i class="fas fa-globe-americas"></i></span>
+                                </div>
+                            </div>
+                            <div class="linkedin-logo">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="linkedin-body">
+                            <p class="linkedin-post">
+                                Excited to share a milestone in my journey!
+
+                                During my internship at Larsen & Toubro, I worked on time series analysis for solar power generation across multiple plants. By applying statistical models like ANOVA, I was able to contribute to more accurate energy forecasting — achieving up to 18% improvement in prediction accuracy.
+
+                                This opportunity not only sharpened my data analytics and problem-solving skills but also gave me real-world exposure to how clean energy data is used to make impactful decisions.
+
+                                I'm also honored to have been among the top 3,000 candidates in the Amazon ML Summer School 2024, selected from over 90,000 applicants!
+
+                                Looking forward to learning, growing, and making meaningful contributions in the field of data science and AI.
+
+                                #DataScience #InternshipExperience #SolarAnalytics #AmazonMLSS #StudentAchievement #CleanEnergy #MachineLearning
+                            </p>
+                        </div>
+                        <div class="linkedin-footer">
+                            <div class="linkedin-stats">
+                                <span><i class="fas fa-thumbs-up"></i> 148</span>
+                                <span><i class="fas fa-comment"></i> 23</span>
+                                <span><i class="fas fa-share"></i> 5</span>
+                            </div>
+                            <div class="linkedin-actions">
+                                <button><i class="fas fa-thumbs-up"></i> Like</button>
+                                <button><i class="fas fa-comment"></i> Comment</button>
+                                <button><i class="fas fa-share"></i> Share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">21st Century Skill Application</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                <div class="experience-container" data-aos="fade-up">
+                    <div class="experience-card">
+                        <div class="experience-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="experience-content">
+                            <p>In today's dynamic and fast-paced world, 21st Century skills are not just buzzwords — they're essential for thriving in both academic and professional environments. I had the opportunity to apply several of these skills during my internship at Larsen & Toubro, where I worked on a project involving solar power generation data.</p>
+                            <p><strong>The Challenge:</strong><br>Our team struggled to accurately predict solar energy output from multiple plants. The inconsistent data made it difficult to plan energy distribution and maintenance activities effectively.</p>
+                            <p><strong>My Approach:</strong><br>I used a combination of critical thinking and problem-solving to analyze patterns in the data. I didn't rush into solutions — instead, I took time to understand the root cause of the fluctuations. I also used communication and collaboration skills to work with engineers, ask meaningful questions, and understand the operational side of the issue. This blend of technical observation and human interaction helped me create a practical solution.</p>
+                            <p><strong>The Outcome:</strong><br>My approach helped improve prediction accuracy by nearly 18%, contributing to better planning and smoother operations. The insights were well-received and included in the final project report.</p>
+                            
+                            <h4>21st Century Skills Applied:</h4>
+                            <ul class="skills-applied-list">
+                                <li><strong>Critical Thinking:</strong> Broke down the complex problem and questioned assumptions before choosing a path forward.</li>
+                                <li><strong>Problem Solving:</strong> Identified practical solutions to forecast energy production more accurately.</li>
+                                <li><strong>Collaboration:</strong> Worked closely with experienced professionals to refine and validate ideas.</li>
+                                <li><strong>Communication:</strong> Effectively shared findings and ensured everyone understood the technical solution in simple terms.</li>
+                                <li><strong>Adaptability:</strong> Learned new tools and methods quickly to respond to real-time project needs.</li>
+                                <li><strong>Initiative:</strong> Took ownership of the task and proactively explored better ways to analyze and interpret data.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Critical Thinking</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 92%" data-aos="skill-animation" data-aos-delay="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Data Analysis</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 88%" data-aos="skill-animation" data-aos-delay="200"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Collaboration</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 85%" data-aos="skill-animation" data-aos-delay="300"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Problem Solving</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%" data-aos="skill-animation" data-aos-delay="400"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">Tools & Platforms Used</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                <div class="tools-container">
+                    <div class="tools-category" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li><i class="fab fa-html5"></i> HTML</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tools-category" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="category-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Project Tools</h3>
+                        <ul>
+                            <li><i class="fab fa-python"></i> Python</li>
+                            <li><i class="fas fa-table"></i> Pandas</li>
+                            <li><i class="fas fa-calculator"></i> NumPy</li>
+                            <li><i class="fas fa-robot"></i> Scikit-learn</li>
+                        </ul>
+                    </div>
+                    <div class="tools-category" data-aos="zoom-in-up" data-aos-delay="300">
+                        <div class="category-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Data Analysis</h3>
+                        <ul>
+                            <li><i class="fas fa-chart-line"></i> Power BI</li>
+                            <li><i class="fas fa-database"></i> SQL</li>
+                            <li><i class="fas fa-chart-pie"></i> Tableau</li>
+                            <li><i class="fas fa-file-excel"></i> Excel</li>
+                        </ul>
+                    </div>
+                    <div class="tools-category" data-aos="zoom-in-up" data-aos-delay="400">
+                        <div class="category-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>Design/Docs</h3>
+                        <ul>
+                            <li><i class="fas fa-palette"></i> Canva</li>
+                            <li><i class="fab fa-linkedin"></i> LinkedIn</li>
+                            <li><i class="fas fa-file-powerpoint"></i> PowerPoint</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 data-aos="fade-right">Contact</h2>
+                <div class="accent-line" data-aos="width-animation"></div>
+                <div class="contact-container" data-aos="fade-up">
+                    <div class="contact-info">
+                        <p>Thank you for visiting my portfolio. If you'd like to connect or discuss opportunities, feel free to reach out.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <p>namburipraneeth@gmail.com</p>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <p>8148883800</p>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Chennai, Tamil Nadu</p>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="contact-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Namburi Praneeth. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Particles.js for background effects -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <!-- Main script -->
+    <script src="script.js"></script>
+</body>
+</html> 
