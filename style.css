@@ -1993,4 +1993,55 @@ footer {
     opacity: 1 !important;
     visibility: visible !important;
     display: block !important;
+}
+
+/* Forceful centering for ALL section headings - high specificity */
+body main section.section .container h2,
+#home h2, #resume h2, #internship h2, #projects h2, 
+#intro h2, #linkedin h2, #experience h2, #tools h2, #contact h2 {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Ensure accent lines below headings are centered */
+body main section.section .container .accent-line,
+#home .accent-line, #resume .accent-line, #internship .accent-line, 
+#projects .accent-line, #intro .accent-line, #linkedin .accent-line, 
+#experience .accent-line, #tools .accent-line, #contact .accent-line {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    position: relative !important;
+    display: block !important;
+}
+
+/* Modify fade-right animation for headings to keep them centered */
+[data-aos="fade-right"] {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+}
+
+@keyframes fade-in-centered {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.section h2[data-aos="fade-right"] {
+    animation: fade-in-centered 1s forwards;
+    opacity: 0;
 } 
