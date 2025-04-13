@@ -1,0 +1,12 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio website",
+    "main": "index.html",
+    "scripts": {
+      "start": "serve -s ."
+    },
+    "dependencies": {
+      "serve": "^14.2.0"
+    }
+  }
